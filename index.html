@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/CSS/style.css" />
+  <script src="assets/js/script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li class="home"><a href="#perfil">Perfil</a></li>
+      <li><a href="inicio">Inicio</a></li>
+      <li><a href="miPerfil">Mi Perfil</a></li>
+      <li><a href="encontrarConexiones">Encontrar Conexiones</a></li>
+      <li><button type="button">Cerrar Sesión</button></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="perfil">
+      <div class="backCeleste"></div>
+      <img src="assets/img/user.png" alt="Foto de usuario" />
+      <h1>Linn Olsen</h1>
+      <p>Bergen, Noruega<br>
+        Diseñadora de UX/UI | Desarrolladora Frontend | Amante de la naturaleza</p>
+      <p>
+        Apasionada por crear experiencias digitales hermosas y funcionales.<br />
+        Cuando no está codificando, disfruta explorando los fiordos noruegos y capturando la belleza de la naturaleza en fotografías.
+      </p>
+      <a class="edit-link" href="#">Edit profile</a>
+
+      <div class="info">
+        <h2>Education</h2>
+        <p class="negrita">Coding Dojo - Bootcamp de Desarrollo Full Stack</p>
+        <p>Dic 2019 - Mar 2020<br />
+          Triple cinturón negro en Python, MERN y C#</p>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="card">
+        <h3>Solicitudes de Conexión (2)</h3>
+        <div class="solicitud">
+          <img src="assets/img/user.png" alt="Foto de usuario" />
+          <span>Kai Schröder</span>
+          <div class="acciones">
+            <button class="btn btn-success btn-sm me-1">✓</button>
+            <button class="btn btn-danger btn-sm">✕</button>
+          </div>
+        </div>
+        <div class="solicitud">
+          <img src="assets/img/user.png" alt="Foto de usuario" />
+          <span>Amira El-Masry</span>
+          <div class="acciones">
+            <button class="btn btn-success btn-sm me-1">✓</button>
+            <button class="btn btn-danger btn-sm">✕</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Tus Conexiones (500+)</h3>
+        <div class="conexion"><img src="assets/img/user.png" /> Adrien Desplatz</div>
+        <div class="conexion"><img src="assets/img/user.png" /> Aarav Patel</div>
+        <div class="conexion"><img src="assets/img/user.png" /> Lina Kovačević</div>
+        <div class="conexion"><img src="assets/img/user.png" /> Mateo Hernández</div>
+        <div class="conexion"><img src="assets/img/user.png" /> Yuna Kim</div>
+        <div class="conexion"><img src="assets/img/user.png" /> Liam O'Brien</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
